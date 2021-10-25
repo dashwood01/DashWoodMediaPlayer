@@ -68,6 +68,6 @@ public class DashWoodAudioRecorder {
     }
 
     public String getFilePath() {
-        return HandlerReturnValue.getPathWithoutSlashChar(path) + " / " + fileName;
+        return HandlerReturnValue.getPathWithoutSlashChar(path) + "/" + fileName;
     }
 }
