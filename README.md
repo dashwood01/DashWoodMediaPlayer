@@ -1,4 +1,4 @@
 # DashWoodMediaPlayer
 Audio recorder and audio player
 
-# How works : Comming soon
+# How works : Coming soon

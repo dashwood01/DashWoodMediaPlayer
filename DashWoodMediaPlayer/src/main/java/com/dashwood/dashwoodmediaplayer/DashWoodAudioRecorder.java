@@ -62,4 +62,8 @@ public class DashWoodAudioRecorder {
         }
         handlerAudioRecorder.stop();
     }
+
+    public boolean deleteFile() {
+        return new File(HandlerReturnValue.getPathWithoutSlashChar(path) + "/" + fileName).delete();
+    }
 }
